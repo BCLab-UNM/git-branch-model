@@ -36,7 +36,7 @@ Begin by switching to a new branch `hotfix-0.5.4`, branching off of `master`:
 ```
 $ git checkout -b hotfix-0.5.4 master
 ```
-Implement your bug fix in `hotfix-0.5.4`, then merge your hotfix branch back into `master`:
+Implement your bug fix in `hotfix-0.5.4`, commit your changes, then merge your hotfix branch back into `master`:
 ```
 $ git checkout master
 $ git merge --no-ff hotfix-0.5.4
