@@ -44,7 +44,7 @@ $ git merge --no-ff hotfix-0.5.4
 Don't forget to increment the patch value of your version tag by one and push all changes to the remote:
 ```
 $ git tag v0.5.4
-$ git push origin master -tag
+$ git push origin master --tag
 ```
 Finally, merge the hotfix into `development` and push to the remote:
 ```
