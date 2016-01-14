@@ -14,7 +14,7 @@ $ git checkout -b foo development
 ```
 You should use `foo` to implement and commit all changes required for your new feature. When your feature is complete, merge your feature branch back into `development`:
 ```
-$ git checkout develop
+$ git checkout development
 $ git merge --no-ff foo
 ```
 Then, delete your feature branch:
