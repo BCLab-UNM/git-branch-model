@@ -30,13 +30,10 @@ $ git push origin development
 
 Hotfix branches are used to implement critical bug fixes in the *production version* of your code, i.e. code that is currently being used for experimental analysis. As such, they should always originate from the `master` branch, who's version tag must be incremented after the hotfix branch is merged.
 
-To identify the current tag for the master, run:
-
+First, identify the current tag for the master:
 ```
 $ git describe --tags
 ```
-
-
 Now, consider an example in which we discover a critical bug in version 0.5.3 of the current production release of your code:
 
 Begin by switching to a new branch `hotfix-0.5.4`, branching off of `master`:
