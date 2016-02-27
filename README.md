@@ -17,13 +17,13 @@ You should use `foo` to implement and commit all changes required for your new f
 $ git checkout development
 $ git merge --no-ff foo
 ```
-Then, delete your feature branch:
-```
-$ git branch -d foo
-```
-Finally, push your local changes to the remote repository:
+Then, push your local changes to the remote repository:
 ```
 $ git push origin development
+```
+Finally, delete your feature branch:
+```
+$ git branch -d foo
 ```
 
 ### Hotfix branches
